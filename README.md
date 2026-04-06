@@ -1,4 +1,4 @@
-# OOP seminar 1
+# Intro in C
 
 Project for experimenting with C (OOP 2026)
 
@@ -27,12 +27,12 @@ brew install cmake
 ### Build the project
 
 ```bash
-cmake -B target
+cmake -S . -B target
 cmake --build target
 ```
 
 ### Run the project
 
 ```bash
-./target/seminar_1
+./target/app
 ```
